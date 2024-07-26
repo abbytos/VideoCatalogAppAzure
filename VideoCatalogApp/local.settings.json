@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  "Host": {
+    "CORS": [
+      "https://videocatalogwebapp.azurewebsites.net",
+      "https://localhost:7013"
+    ],
+    "CORSCredentials": true
+  }
+}
